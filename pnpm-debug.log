@@ -1,0 +1,191 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "arras"
+      version: "1.0.0"
+      main: "server.js"
+      scripts: 
+        start: "node server"
+      dependencies: 
+        eris: "^0.18.0"
+        google-closure-library: "^20230802.0.0"
+        ws: "6.1.x"
+        node: "^21.2.0"
+      engines: 
+        node: "12.x"
+      license: "MIT"
+      gitHead: "2f4764aa8bfb1130a2afaa5dbd252d1cb15cae93"
+      readme: "ERROR: No README data found!"
+      _id: "arras@1.0.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/google-closure-library/20230802.0.0"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.1.4"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/21.7.3"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.4"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/21.7.3"
+    requester: "/app"
+    status: "fetched"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/eris/0.18.0"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/8.18.3"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.8"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  18 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      name: "arras"
+      version: "1.0.0"
+      main: "server.js"
+      scripts: 
+        start: "node server"
+      dependencies: 
+        eris: "^0.18.0"
+        google-closure-library: "^20230802.0.0"
+        ws: "6.1.x"
+        node: "^21.2.0"
+      engines: 
+        node: "12.x"
+      license: "MIT"
+      gitHead: "2f4764aa8bfb1130a2afaa5dbd252d1cb15cae93"
+      readme: "ERROR: No README data found!"
+      _id: "arras@1.0.0"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/8.18.3"
+    requester: "/app"
+    status: "found_in_store"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/eris/0.18.0"
+    requester: "/app"
+    status: "fetched"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  23 warn pnpm: 
+    message: "eris: ws@8.18.3 requires a peer of bufferutil@^4.0.1 but none was installed."
+    prefix: "/app"
+  24 warn pnpm: 
+    message: "eris: ws@8.18.3 requires a peer of utf-8-validate@>=5.0.2 but none was installed."
+    prefix: "/app"
+  25 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  26 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  27 debug pnpm:stats: 
+    added: 9
+    prefix: "/app"
+  28 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/opusscript/0.0.8/node_modules/opusscript"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/eris/0.18.0/node_modules/opusscript"
+  29 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/eris/0.18.0/node_modules/tweetnacl"
+  30 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/ws/8.18.3/node_modules/ws"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/eris/0.18.0/node_modules/ws"
+  31 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/ws/6.1.4/node_modules/async-limiter"
+  32 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/node-bin-setup/1.1.4/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/node/21.7.3/node_modules/node-bin-setup"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/google-closure-library/20230802.0.0"
+    requester: "/app"
+    status: "fetched"
+  34 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  35 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/eris/0.18.0/node_modules/eris"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/eris"
+  36 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/google-closure-library/20230802.0.0/node_modules/google-closure-library"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/google-closure-library"
+  37 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/ws/6.1.4/node_modules/ws"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/ws"
+  38 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/node/21.7.3/node_modules/node"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/node"
+  39 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/async-limiter"
+  40 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/node-bin-setup/1.1.4/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/node-bin-setup"
+  41 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/opusscript/0.0.8/node_modules/opusscript"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/opusscript"
+  42 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/tweetnacl"
+  43 error pnpm: 
+    message: 
+      errno: -2
+      code: "ENOENT"
+      syscall: "chmod"
+      path: "/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/node/bin/node"
+    err: 
+      name: "Error"
+      message: "ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/node/bin/node'"
+      code: "ENOENT"
+      stack: "Error: ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/909980e6-a3c1-40e3-8963-ae12e61c4fad/node_modules/node/bin/node'"
